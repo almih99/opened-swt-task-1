@@ -1,6 +1,6 @@
 {
   "headers": {
-    "/*": {
+    "/": {
       "X-Author": "almih99",
       "Access-Control-Allow-Origin": "*"
     },
