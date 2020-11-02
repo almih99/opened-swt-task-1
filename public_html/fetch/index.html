@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>task 3</title>
+<script>
+async function doAction() {
+  const inp = document.getElementById('inp');
+  const response = await fetch(inp.value);
+  inp.value = await response.text();
+}
+
+</script>
+</head>
+<input type="text" id="inp">
+<input type="button" id="bt" value="process" onclick="doAction();">
+</html>
